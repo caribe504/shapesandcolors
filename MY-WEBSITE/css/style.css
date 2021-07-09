@@ -1,0 +1,47 @@
+html {
+  scroll-behavior: smooth;
+  min-height: 200px;
+}
+
+.greyBackground {
+  background-image: url();
+  background-color: hsl(0, 0%, 63%);
+  background-size: cover, cover;
+  height: 200px;
+  box-sizing: border-box;
+  text-align: left;
+  padding-left: 28px;
+  padding-right: 20px;
+  padding-top: 1px;
+  font-size: 30px;
+  font-style: initial;
+  }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#title {
+  background-image: url();
+  background-color: hsl(0, 0%, 63%);
+  background-size: cover, cover;
+  height: 150px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 60px;
+ }
+
+.margin {
+  margin: 10px;
+}
+
+#maxContainer {
+  background-image: url(/MY-WEBSITE/images/Background_0.jpg);
+  background-position: right bottom;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}

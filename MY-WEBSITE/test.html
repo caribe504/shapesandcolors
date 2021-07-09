@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="carousel/carousel.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="maxContainer">
+  <div class="margin">
+    <div class="margin">
+      <div id="title" class="margin">
+        <h1>Shapes & Colors</h1>
+       </div>
+      <div id="Carousel" class="slideshow-container fade" class="margin">
+        <!-- Full images with numbers and message Info -->
+        <div class="Containers">
+          <div class="MessageInfo">1 / 5</div>
+          <img src="images/tetrahedron-1.png" style="width:25%">
+          <div class="Info">Tetrahedron</div>
+        </div>
+      
+        <div class="Containers">
+          <div class="MessageInfo">2 / 5</div>
+          <img src="images/blue-cube.png" style="width:24.3%">
+          <div class="Info">Cube</div>
+        </div>
+      
+        <div class="Containers">
+          <div class="MessageInfo">3 / 5</div>
+          <img src="images/octahedron.gif" style="width:27.2%">
+          <div class="Info">Octahedron</div>
+        </div>
+    
+        <div class="Containers">
+            <div class="MessageInfo">4 / 5</div>
+            <img src="images/dodecahedron.png" style="width:27.6%">
+            <div class="Info">Dodecahedron</div>
+          </div>
+    
+        <div class="Containers">
+            <div class="MessageInfo">5 / 5</div>
+            <img src="images/icosahedron.png" style="width:26.7%">
+            <div class="Info">Icosahedron</div>
+          </div>
+        <!-- Back and forward buttons -->
+        <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The circles/dots -->
+      <div style="text-align:center" class="margin">
+        <span class="dots" onclick="currentSlide(1)"></span>
+        <span class="dots" onclick="currentSlide(2)"></span>
+        <span class="dots" onclick="currentSlide(3)"></span>
+        <span class="dots" onclick="currentSlide(4)"></span>
+        <span class="dots" onclick="currentSlide(5)"></span>
+      </div>     
+      <script src="carousel/carousel.js"></script>
+    </div>
+  
+  
+    <div class="greyBackground" class="Containers" class="margin">
+      <p>
+        Starting with this arangement of platonic solids, we can observe the relationships between the shapes and colors as the tetrahedron cube and octahedron, the smallest, appear with a green-blue color reflecting their pureness, the dodecahedron and icosahedron, with 12 faces and 21 vertices and 21 faces and 12 vertices respectively are represented by hotter, more rounder colors.</p>
+    </div>
+  
+    <div class="margin">
+      <div class="margin">
+        <img src="images/prismsAndPyramids.png"  alt="Pyramids and Prisms" class="center" class="margin">
+      </div>
+      <div class="greyBackground" class="margin">
+        <p>
+          Following, we have this collection of prisms and pyramids. One of the key characteristics of these is that they are connected, if a prism has a color, the pyramid with the corresponding base will absorb that same color no matter how far away they are from eachother. Art entanglement.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>                     
